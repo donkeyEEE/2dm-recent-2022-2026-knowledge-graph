@@ -1,0 +1,155 @@
+{
+  "stage": "final-graph",
+  "dataset_version": "valid2.0",
+  "dataset_hash": "4507907510ded7f88af950b98872aaf6f0d74b6f6a4db0896968d0b27b946e1f",
+  "sample_manifest_hash": "b50922b03b8b6ae641cb29cb11d666e53a271ab991d5bc1594f82a4bec9eacdc",
+  "canonical_result": "results/final-graph__human-reviewed__valid2.0.json",
+  "canonical_sha256": "63c0f6ee0a8317b30a303679680e3a001a9130c59f97639a96044c93e02130a8",
+  "articles": 250,
+  "total": {
+    "articles": 247,
+    "records": 2043,
+    "human_review": {
+      "reviewed": 2043,
+      "draft": 0,
+      "unreviewed": 0,
+      "decisions": {
+        "partially_supported": 475,
+        "supported": 1277,
+        "unsupported": 291
+      }
+    }
+  },
+  "batches": {
+    "B01": {
+      "articles": 49,
+      "records": 392,
+      "human_review": {
+        "reviewed": 392,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "supported": 218,
+          "unsupported": 55,
+          "partially_supported": 119
+        }
+      }
+    },
+    "B02": {
+      "articles": 50,
+      "records": 404,
+      "human_review": {
+        "reviewed": 404,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "supported": 220,
+          "unsupported": 62,
+          "partially_supported": 122
+        }
+      }
+    },
+    "B03": {
+      "articles": 49,
+      "records": 403,
+      "human_review": {
+        "reviewed": 403,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "supported": 272,
+          "unsupported": 71,
+          "partially_supported": 60
+        }
+      }
+    },
+    "B04": {
+      "articles": 49,
+      "records": 432,
+      "human_review": {
+        "reviewed": 432,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "supported": 301,
+          "unsupported": 65,
+          "partially_supported": 66
+        }
+      }
+    },
+    "B05": {
+      "articles": 50,
+      "records": 412,
+      "human_review": {
+        "reviewed": 412,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "partially_supported": 108,
+          "supported": 266,
+          "unsupported": 38
+        }
+      }
+    }
+  },
+  "predicates": {
+    "exhibits": {
+      "articles": 238,
+      "records": 1124,
+      "human_review": {
+        "reviewed": 1124,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "partially_supported": 255,
+          "supported": 717,
+          "unsupported": 152
+        }
+      }
+    },
+    "explained_by": {
+      "articles": 242,
+      "records": 726,
+      "human_review": {
+        "reviewed": 726,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "supported": 485,
+          "partially_supported": 169,
+          "unsupported": 72
+        }
+      }
+    },
+    "is_variant_of": {
+      "articles": 92,
+      "records": 193,
+      "human_review": {
+        "reviewed": 193,
+        "draft": 0,
+        "unreviewed": 0,
+        "decisions": {
+          "unsupported": 67,
+          "supported": 75,
+          "partially_supported": 51
+        }
+      }
+    }
+  },
+  "omission_candidates": 0,
+  "source_pending": 0,
+  "reduction": {
+    "article_sample_size": 250,
+    "stages": [
+      "final-graph"
+    ],
+    "edge_retention": "all eligible final-graph records; no subsampling",
+    "excluded_predicates": [
+      "reports",
+      "uses_mechanism"
+    ]
+  },
+  "limitations": [
+    "Human review records support abstract-level relation assessment, not independent scientific truth verification."
+  ]
+}

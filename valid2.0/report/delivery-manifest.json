@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "dataset_version": "valid2.0",
+  "dataset_hash": "4507907510ded7f88af950b98872aaf6f0d74b6f6a4db0896968d0b27b946e1f",
+  "canonical_result": "final-graph/results/final-graph__human-reviewed__valid2.0.json",
+  "canonical_result_sha256": "63c0f6ee0a8317b30a303679680e3a001a9130c59f97639a96044c93e02130a8",
+  "stage_statistics_sha256": "f0525bced11cfd71156045ba90c6e428f726168c278f7c0c673b391169757074",
+  "page_sha256": "1f58ec7d6936e2ec2cafff0c6552cb1f12819dfe8aacdcf15db8b19da8343617",
+  "articles": 250,
+  "records": 2043,
+  "human_reviewed": 2043,
+  "human_reviewer": "LYZ"
+}

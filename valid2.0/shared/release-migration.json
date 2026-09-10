@@ -1,0 +1,22 @@
+{
+  "source_release": "valid1.0",
+  "source_release_archive": "archive/dataset-valid1.0",
+  "reconstruction_source": "dataset-1.0.0 frozen manifest and read-only original inputs",
+  "reconstruction_hash_match": true,
+  "target_dataset_version": "valid2.0",
+  "article_rule": "restore all 250 articles in the frozen 1.0.0 order and B01-B05 assignment",
+  "stage_rule": "final-graph only",
+  "edge_rule": "retain all records except reports and uses_mechanism; no edge subsampling",
+  "excluded_predicates": [
+    "reports",
+    "uses_mechanism"
+  ],
+  "articles_retained": 250,
+  "records_retained": 2043,
+  "source_pending_retained": 0,
+  "reviews_migrated": 2043,
+  "reviews_excluded": 890,
+  "source_omissions": 1,
+  "human_reviews_migrated": 2043,
+  "human_reviewer": "LYZ"
+}

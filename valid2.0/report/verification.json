@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "dataset_version": "valid2.0",
+  "dataset_hash": "4507907510ded7f88af950b98872aaf6f0d74b6f6a4db0896968d0b27b946e1f",
+  "sample_manifest_hash": "b50922b03b8b6ae641cb29cb11d666e53a271ab991d5bc1594f82a4bec9eacdc",
+  "stages": [
+    "final-graph"
+  ],
+  "excluded_predicates": [
+    "reports",
+    "uses_mechanism"
+  ],
+  "articles": 250,
+  "records_verified_against_original": 2043,
+  "nodes_verified_against_original": 1997,
+  "source_pending": 0,
+  "data_files_rehashed": 7,
+  "code_files_rehashed": 11,
+  "source_graph_sha256": "5b240ce0e4b42dd3ee587ae14be24c687c77d885e894934c52ca631e1cb136f3"
+}
